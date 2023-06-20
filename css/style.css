@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+:root{
+    /* tamanhos de tela especificados */
+    --mobile-size: 375px;
+    --desktop-size: 1440px;
+
+    /* Cores */
+
+        /* Primarias */
+        --dark-cyan: hsl(158, 36%, 37%);
+        --cream: hsl(30, 38%, 92%);
+
+        /* Neutras */
+        --very-dark-blue: hsl(212, 21%, 14%);
+        --dark-grayish-blue: hsl(228, 12%, 48%);
+        --white: hsl(0, 0%, 100%);
+
+
+    /* Escrita */
+
+        --font-size-paragraph: 14px;
+
+    /* Fontes */
+
+    --font-montserrat: 'Montserrat';
+    --font-fraunces: 'Fraunces' 
+
+}
+*{
+    transition: .2s;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .conteiner {
+
+    background-color: var(--white);
+    height: 480px;
+    width: 600px;
+    border-radius: .5rem;
+    display: flex;
+     
+
+ }
+ .imagem-perfume {
+     height: 100%;
+     width: 52%;
+     border-radius: .5rem 0 0 .5rem;
+     background-image: url(https://images.unsplash.com/photo-1563170351-be82bc888aa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80);
+     background-size: cover;
+ }
+ .conteudo-componente{
+     padding: 1rem 2rem;
+     max-width: 40%;
+ }
+ .titulo-componente{
+     font-family: var(--font-montserrat);
+     font-weight: 500;
+     letter-spacing: .1rem;
+     text-transform: uppercase;
+     font-size: 1rem;
+     color: var(--dark-grayish-blue);
+ }
+ .nome-perfume{
+     font-family: var(--font-fraunces);
+     font-weight: 700;
+     font-size: 2rem;
+ }
+ .descricao-perfume{
+     font-family: var(--font-montserrat);
+     font-weight: 500;
+     font-size: 14px;
+     color: var(--dark-grayish-blue);
+ }
+ .valores {
+     display: flex;
+     gap: 1rem;
+     align-items: center;
+     justify-content: center;
+ }
+ .valor-atual{
+     font-family: var(--font-fraunces);
+     font-weight: 700;
+     font-size: 2rem;
+     color: var(--dark-cyan);
+ }
+ .valor-anterior {
+     font-family: var(--font-montserrat);
+     font-weight: 500;
+     font-size: .8rem;
+     color: var(--dark-grayish-blue);
+     text-decoration: line-through;
+ }
+ .botao-comprar{
+     display: flex;
+     background-color: var(--dark-cyan);
+     justify-content: center;
+     align-items: center;
+     font-family: var(--font-montserrat);
+     font-weight: 700;
+     color: var(--white);
+     border-radius: .6rem;
+     cursor: pointer;
+
+ }
+ .botao-comprar:hover {
+     background-color: hsl(158, 66%, 11%);
+ }
+
+ .icone-carrinho{
+     width: 7%;
+     padding: .5rem .9rem;
+ } */
+@media (min-width: 800px) {
+    .conteiner {
+
+       background-color: var(--white);
+       height: 480px;
+       width: 600px;
+       border-radius: .5rem;
+       display: flex;
+        
+
+    }
+    .imagem-perfume {
+        height: 100%;
+        width: 52%;
+        border-radius: .5rem 0 0 .5rem;
+        background-image: url(https://images.unsplash.com/photo-1563170351-be82bc888aa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80);
+        background-size: cover;
+    }
+    .conteudo-componente{
+        padding: 1rem 2rem;
+        max-width: 40%;
+    }
+    .titulo-componente{
+        font-family: var(--font-montserrat);
+        font-weight: 500;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: var(--dark-grayish-blue);
+    }
+    .nome-perfume{
+        font-family: var(--font-fraunces);
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .descricao-perfume{
+        font-family: var(--font-montserrat);
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--dark-grayish-blue);
+    }
+    .valores {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .valor-atual{
+        font-family: var(--font-fraunces);
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--dark-cyan);
+    }
+    .valor-anterior {
+        font-family: var(--font-montserrat);
+        font-weight: 500;
+        font-size: .8rem;
+        color: var(--dark-grayish-blue);
+        text-decoration: line-through;
+    }
+    .botao-comprar{
+        display: flex;
+        background-color: var(--dark-cyan);
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-montserrat);
+        font-weight: 700;
+        font-size: .8rem;
+        color: var(--white);
+        border-radius: .6rem;
+        cursor: pointer;
+
+    }
+    .botao-comprar:hover {
+        background-color: hsl(158, 66%, 11%);
+    }
+
+    .icone-carrinho{
+        width: 6%;
+        padding: .5rem .9rem;
+    }
+
+}
+@media (max-width: 475px) {
+    .conteiner {
+
+        background-color: var(--white);
+        height: 660px;
+        width: 340px;
+        border-radius: .5rem;
+        display: flex;
+        flex-direction: column;
+         
+ 
+     }
+     .imagem-perfume {
+         height: 35%;
+         width: 100%;
+         border-radius: .5rem .5rem 0 0;
+         background-image: url(https://images.unsplash.com/photo-1563170351-be82bc888aa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80);
+         background-size: cover;
+         background-position: center center;
+     }
+     .conteudo-componente{
+        padding: 1rem 1.4rem;
+        max-height: 50%;
+    }
+    .titulo-componente{
+        font-family: var(--font-montserrat);
+        font-weight: 500;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        font-size: .8rem;
+        color: var(--dark-grayish-blue);
+    }
+    .nome-perfume{
+        font-family: var(--font-fraunces);
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    .descricao-perfume{
+        font-family: var(--font-montserrat);
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--dark-grayish-blue);
+    }
+    .valores {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: start;
+    }
+    .valor-atual{
+        font-family: var(--font-fraunces);
+        font-weight: 700;
+        font-size: 2rem;
+        color: var(--dark-cyan);
+    }
+    .valor-anterior {
+        font-family: var(--font-montserrat);
+        font-weight: 500;
+        font-size: .8rem;
+        color: var(--dark-grayish-blue);
+        text-decoration: line-through;
+    }
+    .botao-comprar{
+        display: flex;
+        background-color: var(--dark-cyan);
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-montserrat);
+        font-weight: 700;
+        color: var(--white);
+        border-radius: .6rem;
+        cursor: pointer;
+
+    }
+    .botao-comprar:hover {
+        background-color: hsl(158, 66%, 11%);
+    }
+
+    .icone-carrinho{
+        width: 7%;
+        padding: .5rem .9rem;
+    }
+
+}
